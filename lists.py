@@ -10,6 +10,7 @@ def remove_elements(list_to_remove_elements):
     if len(nueva_lista) > 0:
         del nueva_lista[0]
     return nueva_lista
+remove_elements([])
     
 
 def add_elements(list_to_add_elements):
@@ -17,7 +18,8 @@ def add_elements(list_to_add_elements):
     nueva_lista = lista[:]
     nueva_lista.insert(0, "pink")
     nueva_lista.append("yellow") 
-    return nueva_lista 
+    return nueva_lista
+add_elements([])
    
 
 
@@ -28,7 +30,7 @@ def is_empty(list_to_check):
         return True
     else:
         return False
-   
+is_empty([])
 
 
 def check_lists(list_to_compare1, list_to_compare2):
@@ -43,6 +45,7 @@ def check_lists(list_to_compare1, list_to_compare2):
             return False
     else:
         return False
+check_lists([], [])
 
 def list_of_lists(list_of_lists_to_modify):
        lista = [[1, 2, 3], [4, 5, 6, 7, 8], [9, 10, 11, 12]]
@@ -54,4 +57,5 @@ def list_of_lists(list_of_lists_to_modify):
         return nueva_lista
     else:   
         return False
+list_of_lists([])
 
