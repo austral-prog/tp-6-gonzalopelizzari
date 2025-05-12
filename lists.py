@@ -1,7 +1,7 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    lista = ["red" , "green" , "white", "black" , "pink", "yellow"]
+    lista = ["Red" , "Green" , "White", "Black" , "Pink", "Yellow"]
     nueva_lista = lista[:]
     if len(nueva_lista) > 5:
         del nueva_lista[5]
@@ -14,17 +14,17 @@ remove_elements([])
     
 
 def add_elements(list_to_add_elements):
-    lista = ["red" ,"green" , "white" , "black"]
+    lista = ["Red" ,"Green" , "White" , "Black"]
     nueva_lista = lista[:]
-    nueva_lista.insert(0, "pink")
-    nueva_lista.append("yellow") 
+    nueva_lista.insert(0, "Pink")
+    nueva_lista.append("Yellow") 
     return nueva_lista
 add_elements([])
    
 
 
 def is_empty(list_to_check):
-    lista = ["red" , "green" , "white", "black" , "pink", "yellow"]
+    lista = ["Red" , "Green" , "White", "Black" , "Pink", "Yellow"]
     nueva_lista = lista[:]
     if len(nueva_lista) == 0:
         return True
@@ -34,8 +34,8 @@ is_empty([])
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-    lista1 = ["black" , "pink", "yellow" , "red" , "green", "white"]
-    lista2 = ["red", "green", "yellow" , "white", "black" , "pink"]
+    lista1 = ["Black" , "Pink", "Yellow" , "Red" , "Green", "White"]
+    lista2 = ["Red", "Green", "Yellow" , "White", "Black" , "Pink"]
     nueva_lista1 = lista1[:]
     nueva_lista2 = lista2[:]
     if len(nueva_lista1) > 2 and len(nueva_lista2) > 2:
