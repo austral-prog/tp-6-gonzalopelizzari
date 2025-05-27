@@ -7,7 +7,7 @@ def remove_elements(list_to_remove_elements):
     elif len (list1) ==5 : 
         return list1[1:-1]
     elif len (list1) == 6 :
-        return list[1:-2]
+        return list1[1:-2]
     else:
         list1 = list1[1:5] + list1[7:]
         return list1
